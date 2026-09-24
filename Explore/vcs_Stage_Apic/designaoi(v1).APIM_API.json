@@ -7,11 +7,11 @@
       "description" : "",
       "apiName" : "designaoi",
       "version" : "v1",
-      "status" : "DRAFT",
+      "status" : "PUBLISHED",
       "visibility" : "EXTERNAL",
       "revisionNumber" : 1,
       "frsDocumentId" : "8KJ1EsN3fiTjer90jiqpmw",
-      "lastModifiedDate" : 1790227154457,
+      "lastModifiedDate" : 1790227300547,
       "apiClusterId" : "b081dd13-0a88-4062-9ed6-6e339cef7d62",
       "isFixed" : true
     },
