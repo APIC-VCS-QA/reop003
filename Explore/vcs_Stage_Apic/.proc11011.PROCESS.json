@@ -1,0 +1,27 @@
+{
+  "objectInfo" : {
+    "id" : "75W5QGZ5B4Wik9cdcbUA4E",
+    "name" : "proc11011",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "GWxXlQNOQoVVVVV-gt-2478-2026-09-24T05:19:08.527Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "updateTime" : "2026-09-24T07:31:53.027Z",
+  "objectRefs" : [ ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}
