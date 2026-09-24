@@ -1,0 +1,138 @@
+{
+  "documentData" : {
+    "id" : "491fa5fa-b1c1-49e3-9ab0-078c2a35423a",
+    "apiDesignId" : "97d35c7b-f4d4-47c0-b4ef-69dcbd775684",
+    "apiDesignApiName" : "designaoi",
+    "apiDesignInternalName" : "designaoi(v1)",
+    "apiDesignMetadata" : {
+      "tags" : [ ],
+      "properties" : {
+        "ApiImplementationProviderType" : "CAI_PROCESS"
+      }
+    },
+    "name" : "designaoipublish",
+    "description" : "",
+    "version" : "v1",
+    "revision" : 1,
+    "type" : "REST_API",
+    "status" : "PUBLISHED",
+    "provider" : "API_CENTER",
+    "comments" : "",
+    "content" : {
+      "tags" : [ ],
+      "properties" : {
+        "ApiImplementationProviderType" : "CAI_PROCESS"
+      },
+      "operations" : [ {
+        "id" : "3cef7771-32e9-477d-9955-acdde380c47a",
+        "title" : "on1",
+        "description" : "",
+        "requestMethod" : "POST",
+        "type" : "REST_API",
+        "path" : "/op1",
+        "tags" : [ ],
+        "properties" : { },
+        "request" : {
+          "mediaTypes" : [ "APPLICATION_JSON", "APPLICATION_XML" ],
+          "body" : {
+            "inline" : false,
+            "fields" : [ {
+              "name" : "r1",
+              "description" : "",
+              "type" : "INTEGER",
+              "required" : false
+            } ]
+          },
+          "type" : "OBJECT",
+          "required" : true
+        },
+        "responses" : [ {
+          "mediaTypes" : [ "APPLICATION_JSON", "APPLICATION_XML" ],
+          "body" : {
+            "inline" : false,
+            "fields" : [ {
+              "name" : "resp1",
+              "description" : "",
+              "type" : "INTEGER",
+              "required" : false
+            } ]
+          },
+          "status" : "STATUS_200_OK",
+          "description" : "OK.",
+          "type" : "OBJECT"
+        } ],
+        "implementation" : {
+          "id" : "75W5QGZ5B4Wik9cdcbUA4E",
+          "provider" : "CAI_PROCESS",
+          "assetName" : "proc11011",
+          "description" : "",
+          "endpoint" : "https://usw1-cai.dm-staging.informaticacloud.com/active-bpel/public/rt/7EDPGWYysxahfFxEVRSU2K/proc11011",
+          "inputTransformations" : [ ],
+          "outputTransformations" : [ ],
+          "responseCodeTransformations" : [ ]
+        },
+        "configuration" : { },
+        "policies" : [ {
+          "id" : "87927612-ecf9-4dff-ac11-4e687f639c60",
+          "category" : "OPERATIONAL",
+          "type" : "RATE_LIMITING_POLICY",
+          "status" : "ENABLED",
+          "inline" : false,
+          "inherited" : false,
+          "notes" : "",
+          "selectionType" : "NONE",
+          "definition" : {
+            "tier" : {
+              "timeUnit" : "SECOND"
+            }
+          }
+        }, {
+          "id" : "45043832-6c5f-44b6-b13f-135930faa7c8",
+          "category" : "OPERATIONAL",
+          "type" : "RESPONSE_CACHING_POLICY",
+          "status" : "ENABLED",
+          "inline" : false,
+          "inherited" : false,
+          "notes" : "",
+          "selectionType" : "NONE",
+          "definition" : { }
+        } ]
+      } ],
+      "apiLevelPolicies" : [ {
+        "policy" : {
+          "type" : "RATE_LIMITING_POLICY",
+          "metadata" : {
+            "category" : "OPERATIONAL",
+            "type" : "RATE_LIMITING_POLICY",
+            "apiDesignRefCount" : 0,
+            "orgLevelRateLimitPolicy" : false
+          },
+          "definition" : {
+            "data" : { }
+          },
+          "inline" : false,
+          "inherited" : false,
+          "properties" : [ ]
+        },
+        "selectionType" : "NONE",
+        "notes" : ""
+      } ],
+      "apiLevelRateLimitNamedPolicyIds" : [ null ],
+      "operationLevelRateLimitNamedPolicyIds" : [ "87927612-ecf9-4dff-ac11-4e687f639c60" ],
+      "userLevelRateLimitsPolicyIds" : [ ],
+      "implementationProviderIds" : [ "75W5QGZ5B4Wik9cdcbUA4E" ]
+    },
+    "apiClusterId" : "b081dd13-0a88-4062-9ed6-6e339cef7d62",
+    "apiCategory" : "IDMC_APP_GENERATED",
+    "frsDocumentId" : "07eoqu1Ma8WhAt1xUAQ3ev",
+    "frsLocation" : "ipidcJrrT6Lks1WWwwRK0F",
+    "isFixed" : true,
+    "frsName" : "designaoipublish(v1)",
+    "runtimeEnvironmentInfo" : {
+      "runtimeEnvironment" : "CLOUD"
+    }
+  },
+  "metadata" : {
+    "VERSION" : "1.0"
+  }
+}
