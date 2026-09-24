@@ -4,7 +4,7 @@
     "metadata" : {
       "id" : "f0e7c1ee-d15a-465a-8c5b-f9526ca1a65f",
       "name" : "policytest",
-      "description" : "",
+      "description" : "adding the desc",
       "category" : "SECURITY",
       "type" : "AUTHENTICATION_POLICY",
       "status" : "ENABLED",
@@ -16,7 +16,7 @@
     },
     "definition" : {
       "data" : { },
-      "id" : "7f23e66a-ba59-4f9e-a866-0c3264f31373",
+      "id" : "f64ab967-3534-40b5-959d-a5a225be7f8e",
       "authenticationSchemes" : [ "BASIC" ]
     },
     "inline" : false,
