@@ -1,0 +1,29 @@
+{
+  "documentData" : {
+    "type" : "AUTHENTICATION_POLICY",
+    "metadata" : {
+      "id" : "f0e7c1ee-d15a-465a-8c5b-f9526ca1a65f",
+      "name" : "policytest",
+      "description" : "",
+      "category" : "SECURITY",
+      "type" : "AUTHENTICATION_POLICY",
+      "status" : "ENABLED",
+      "apiDesignRefCount" : 0,
+      "frsDocumentId" : "5Ktxj9RQWTgiyP7tK9o8kL",
+      "frsLocation" : "ipidcJrrT6Lks1WWwwRK0F",
+      "frsName" : "policytest",
+      "orgLevelRateLimitPolicy" : false
+    },
+    "definition" : {
+      "data" : { },
+      "id" : "7f23e66a-ba59-4f9e-a866-0c3264f31373",
+      "authenticationSchemes" : [ "BASIC" ]
+    },
+    "inline" : false,
+    "inherited" : false,
+    "properties" : [ ]
+  },
+  "metadata" : {
+    "version" : "1.0"
+  }
+}
