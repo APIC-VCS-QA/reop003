@@ -1,0 +1,130 @@
+{
+  "objectInfo" : {
+    "id" : "9SwiENIJXBmf6GWTJYXrcw",
+    "name" : "AnonAPI-AllPolicies(v1)",
+    "type" : "API_MANAGED",
+    "validator" : {
+      "VERSION" : "1.0"
+    },
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "71a2d634-41e5-4e2f-bd9e-afaa42d8e3c9"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2026-09-24T07:32:54.538Z",
+  "objectRefs" : [ {
+    "id" : "7RW0wOG1vCscyOlh9tOY6A",
+    "name" : "APIM_Automation_Tier",
+    "type" : "API_POLICY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "9b89e00c-a7bf-4371-879e-77f9999aaee8"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "do not delete this tier",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Default"
+  }, {
+    "id" : "12L6pvs36OvlK0OlQq6pEE",
+    "name" : "DRcheckOutRl",
+    "type" : "API_POLICY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "e09ff98e-ee90-4278-a8dc-d7376a0067cc"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Default"
+  }, {
+    "id" : "igjOUaLZlmJiuJuwshBrCI",
+    "name" : "afterdrswitch",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "Bk2sBsoZduD2L5S-gt-5742-2021-12-14T12:14:26.449Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Default"
+  }, {
+    "id" : "5XKHudLCEz6czgSDqTHbqA",
+    "name" : "AnonAPI2-PII",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "nPsi5tIS7T1cnFK-gt-2688-2025-07-10T16:00:52.16Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MigrationData"
+  }, {
+    "id" : "amjNws0F1xwjuFk6BUAVI6",
+    "name" : "AnonAPI-AllPolicies(v1)",
+    "type" : "API_PUBLISHED",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "c0547ae3-7bef-4471-8be8-087c2c67fd28"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "application/json",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Balram/CAI_Trigger_TF"
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}
