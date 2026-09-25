@@ -1,34 +1,34 @@
 {
   "documentData" : {
     "metadata" : {
-      "id" : "1059a992-9e0b-4533-8107-45f1672542f1",
+      "id" : "0bf225ee-6556-421d-898f-364d0cf730c8",
       "type" : "REST_API",
       "name" : "REST_API_67(v1)",
-      "description" : "UPDATED DESC",
+      "description" : "this is from preview ",
       "apiName" : "REST_API_67",
       "version" : "v1",
-      "status" : "PUBLISHED",
+      "status" : "DRAFT",
       "visibility" : "EXTERNAL",
       "revisionNumber" : 2,
-      "frsDocumentId" : "2bLdPQqL1scfqzosoWxyet",
-      "lastModifiedDate" : 1790242318610,
-      "apiClusterId" : "f582b18c-cefe-400c-a91b-c0e280511634",
+      "frsDocumentId" : "1fsM3Z5T50Yk0jyIu4acAz",
+      "lastModifiedDate" : 1790316913978,
+      "apiClusterId" : "0a81aa02-9552-4c6e-b653-0812c46aff8b",
       "isFixed" : true
     },
-    "location" : "kfQPywkajyVdmGe69cuVy2",
+    "location" : "dCkPdlJRJavjViXtCEILEg",
     "definition" : {
-      "id" : "api_definition_1790242314782",
+      "id" : "api_definition_1790316913341",
       "operations" : [ {
         "id" : "e3ed5145-04ee-494e-8cd7-b230638a7b4a",
         "title" : "REST_API_67",
         "description" : "",
         "tags" : [ ],
         "implementationConfigurations" : [ {
-          "frsId" : "4YzeLtObqdIlX2CYyUe789",
+          "frsId" : "6eXq87FLQdkbEKlzZt2PE6",
           "provider" : "CAI_PROCESS",
           "assetName" : "REST_API_67",
           "description" : "",
-          "implementationEndpoint" : "https://usw1-cai.dm-staging.informaticacloud.com/active-bpel/public/rt/7EDPGWYysxahfFxEVRSU2K/REST_API_67",
+          "implementationEndpoint" : "https://usw1-cai.dmr-us.informaticacloud.com/active-bpel/public/rt/hiIaM9YLWy9ipAcjwNHkWs/REST_API_67",
           "inputTransformations" : [ ],
           "outputTransformations" : [ ],
           "responseCodeMappings" : [ ]
@@ -89,31 +89,12 @@
         "ifSkip" : false,
         "issuesParsing" : [ ]
       } ],
-      "implementationProviderIds" : [ "4YzeLtObqdIlX2CYyUe789" ]
+      "implementationProviderIds" : [ "6eXq87FLQdkbEKlzZt2PE6" ]
     },
     "metadata.type" : "REST_API",
     "artifacts" : [ ],
     "groups" : [ ],
     "policies" : [ {
-      "policy" : {
-        "type" : "PII_POLICY",
-        "metadata" : {
-          "category" : "PRIVACY",
-          "type" : "PII_POLICY",
-          "apiDesignRefCount" : 0,
-          "orgLevelRateLimitPolicy" : false
-        },
-        "definition" : {
-          "data" : { },
-          "fields" : [ ]
-        },
-        "inline" : false,
-        "inherited" : false,
-        "properties" : [ ]
-      },
-      "selectionType" : "NONE",
-      "notes" : ""
-    }, {
       "policy" : {
         "type" : "AUTHENTICATION_POLICY",
         "metadata" : {
@@ -150,10 +131,29 @@
       },
       "selectionType" : "NONE",
       "notes" : ""
+    }, {
+      "policy" : {
+        "type" : "PII_POLICY",
+        "metadata" : {
+          "category" : "PRIVACY",
+          "type" : "PII_POLICY",
+          "apiDesignRefCount" : 0,
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { },
+          "fields" : [ ]
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NONE",
+      "notes" : ""
     } ],
     "tags" : [ ],
     "properties" : [ {
-      "id" : "6fc24c93-35b5-46fe-85e6-c898c2f6d6e0",
+      "id" : "64efe0ec-c110-4c23-9f0f-bd2ba278ceab",
       "name" : "ApiImplementationProviderType",
       "value" : "CAI_PROCESS"
     } ]
