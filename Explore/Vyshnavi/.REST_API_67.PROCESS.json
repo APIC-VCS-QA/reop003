@@ -1,0 +1,27 @@
+{
+  "objectInfo" : {
+    "id" : "4YzeLtObqdIlX2CYyUe789",
+    "name" : "REST_API_67",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "XoE9paabdqpw0VP-gt-9286-2026-09-24T09:27:12.795Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "updateTime" : "2026-09-25T06:14:09.514Z",
+  "objectRefs" : [ ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}
