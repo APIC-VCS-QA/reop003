@@ -16,14 +16,14 @@
       },
       "contextAttributes" : [ ],
       "additionalInfo" : {
-        "description" : "this is from preview ",
+        "description" : "API from preview pod",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-09-25T06:16:05.964Z",
+  "updateTime" : "2026-09-25T06:17:42.782Z",
   "objectRefs" : [ {
     "id" : "6eXq87FLQdkbEKlzZt2PE6",
     "name" : "REST_API_67",

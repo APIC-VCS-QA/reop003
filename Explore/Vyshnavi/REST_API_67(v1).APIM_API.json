@@ -4,20 +4,20 @@
       "id" : "0bf225ee-6556-421d-898f-364d0cf730c8",
       "type" : "REST_API",
       "name" : "REST_API_67(v1)",
-      "description" : "this is from preview ",
+      "description" : "API from preview pod",
       "apiName" : "REST_API_67",
       "version" : "v1",
       "status" : "DRAFT",
       "visibility" : "EXTERNAL",
       "revisionNumber" : 2,
       "frsDocumentId" : "1fsM3Z5T50Yk0jyIu4acAz",
-      "lastModifiedDate" : 1790316913978,
+      "lastModifiedDate" : 1790317022777,
       "apiClusterId" : "0a81aa02-9552-4c6e-b653-0812c46aff8b",
       "isFixed" : true
     },
     "location" : "dCkPdlJRJavjViXtCEILEg",
     "definition" : {
-      "id" : "api_definition_1790316913341",
+      "id" : "api_definition_1790317022329",
       "operations" : [ {
         "id" : "e3ed5145-04ee-494e-8cd7-b230638a7b4a",
         "title" : "REST_API_67",
