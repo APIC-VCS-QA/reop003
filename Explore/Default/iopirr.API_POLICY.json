@@ -1,0 +1,29 @@
+{
+  "documentData" : {
+    "type" : "AUTHENTICATION_POLICY",
+    "metadata" : {
+      "id" : "c97bca94-579d-4e7b-812a-aaf0ea5950d8",
+      "name" : "iopirr",
+      "description" : "",
+      "category" : "SECURITY",
+      "type" : "AUTHENTICATION_POLICY",
+      "status" : "ENABLED",
+      "apiDesignRefCount" : 0,
+      "frsDocumentId" : "1vMgpnsYjMjdCV0piRZPwJ",
+      "frsLocation" : "dqmr4eQuDqNjS564EggwC1",
+      "frsName" : "iopirr",
+      "orgLevelRateLimitPolicy" : false
+    },
+    "definition" : {
+      "data" : { },
+      "id" : "1639b0ff-cff5-4268-ac4f-0847a0424810",
+      "authenticationSchemes" : [ "ANONYMOUS" ]
+    },
+    "inline" : false,
+    "inherited" : false,
+    "properties" : [ ]
+  },
+  "metadata" : {
+    "version" : "1.0"
+  }
+}
