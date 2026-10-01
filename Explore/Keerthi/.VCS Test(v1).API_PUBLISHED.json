@@ -1,0 +1,70 @@
+{
+  "objectInfo" : {
+    "id" : "0ag4vNAiceqf2SNXcKbogh",
+    "name" : "VCS Test(v1)",
+    "type" : "API_PUBLISHED",
+    "validator" : {
+      "VERSION" : "1.0"
+    },
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "88cd503f-604f-453c-a308-3c583985f72b"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2026-10-01T05:56:15.071Z",
+  "objectRefs" : [ {
+    "id" : "iI7q2XdQcqUhVroM3IRjK6",
+    "name" : "VCS Test(v1)",
+    "type" : "APIM_API",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "20ef78b6-39be-4d55-8439-e2ef2e86fbc2"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Keerthi"
+  }, {
+    "id" : "5uJ2Pk3LpMQenole9Kf1ml",
+    "name" : "vcs1",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "VZ6or3rp3yD7tyG-gt-368-2026-10-01T05:55:46.773Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Keerthi"
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}
