@@ -101,8 +101,8 @@
         "notes" : ""
       } ],
       "operationLevelRateLimitNamedPolicyIds" : [ "13bbd3fd-680a-4e2f-9698-8adc61050b92" ],
-      "apiLevelRateLimitNamedPolicyIds" : [ null ],
       "userLevelRateLimitsPolicyIds" : [ ],
+      "apiLevelRateLimitNamedPolicyIds" : [ null ],
       "implementationProviderIds" : [ "5uJ2Pk3LpMQenole9Kf1ml" ]
     },
     "apiClusterId" : "4bdd7532-53ad-46ba-8bf7-a64fd7d1564e",
