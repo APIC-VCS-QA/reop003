@@ -1,0 +1,49 @@
+{
+  "documentData" : {
+    "type" : "PII_POLICY",
+    "metadata" : {
+      "id" : "ee71830c-b7e9-4495-ad81-508735bfc91e",
+      "name" : "API_Auto_PII_Policy_L0XDa",
+      "description" : "This Is APIC Automation PII Policy",
+      "category" : "PRIVACY",
+      "type" : "PII_POLICY",
+      "status" : "ENABLED",
+      "apiDesignRefCount" : 0,
+      "frsDocumentId" : "cn1hzaIQDGXfTMcjwpgDsO",
+      "frsLocation" : "hEu2J5WVOsPe3tqmDvPD6D",
+      "frsName" : "API_Auto_PII_Policy_L0XDa",
+      "orgLevelRateLimitPolicy" : false
+    },
+    "definition" : {
+      "data" : { },
+      "id" : "5c7fa3a9-5930-4437-8a9a-79e39946b5df",
+      "fields" : [ {
+        "name" : "Credit Card",
+        "requestAction" : "NO_ACTION",
+        "responseAction" : "WARNING"
+      }, {
+        "name" : "Email Address",
+        "requestAction" : "WARNING",
+        "responseAction" : "NO_ACTION"
+      }, {
+        "name" : "IP Address",
+        "requestAction" : "NO_ACTION",
+        "responseAction" : "NO_ACTION"
+      }, {
+        "name" : "Phone Number",
+        "requestAction" : "NO_ACTION",
+        "responseAction" : "BLOCK"
+      }, {
+        "name" : "SSN",
+        "requestAction" : "NO_ACTION",
+        "responseAction" : "NO_ACTION"
+      } ]
+    },
+    "inline" : false,
+    "inherited" : false,
+    "properties" : [ ]
+  },
+  "metadata" : {
+    "version" : "1.0"
+  }
+}
