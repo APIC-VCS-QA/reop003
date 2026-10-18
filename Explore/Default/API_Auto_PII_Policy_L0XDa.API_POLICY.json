@@ -16,7 +16,7 @@
     },
     "definition" : {
       "data" : { },
-      "id" : "5c7fa3a9-5930-4437-8a9a-79e39946b5df",
+      "id" : "d72c340c-6e6b-4e21-b294-f640bfa88c2e",
       "fields" : [ {
         "name" : "Credit Card",
         "requestAction" : "NO_ACTION",
@@ -35,6 +35,10 @@
         "responseAction" : "BLOCK"
       }, {
         "name" : "SSN",
+        "requestAction" : "BLOCK",
+        "responseAction" : "NO_ACTION"
+      }, {
+        "name" : "US Address",
         "requestAction" : "NO_ACTION",
         "responseAction" : "NO_ACTION"
       } ]
