@@ -1,0 +1,29 @@
+{
+  "documentData" : {
+    "type" : "AUTHENTICATION_POLICY",
+    "metadata" : {
+      "id" : "6c3bae45-2176-451c-ad6a-69a31749fc22",
+      "name" : "iopp",
+      "description" : "df git cc",
+      "category" : "SECURITY",
+      "type" : "AUTHENTICATION_POLICY",
+      "status" : "ENABLED",
+      "apiDesignRefCount" : 0,
+      "frsDocumentId" : "9eqqBxB20BucUODMOUchgH",
+      "frsLocation" : "hdeWD89voGhlTUTK0q1aUI",
+      "frsName" : "iopp",
+      "orgLevelRateLimitPolicy" : false
+    },
+    "definition" : {
+      "data" : { },
+      "id" : "236e1209-3748-458e-a9f8-918dc18c4b63",
+      "authenticationSchemes" : [ "BASIC" ]
+    },
+    "inline" : false,
+    "inherited" : false,
+    "properties" : [ ]
+  },
+  "metadata" : {
+    "version" : "1.0"
+  }
+}
